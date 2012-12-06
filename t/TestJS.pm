@@ -7,7 +7,7 @@ use Test::Base::Filter -Base;
 
 sub run_js {
     my $command = shift;
-    @INC = ('t/testlib');
+    push @INC, 't/testlib';
     $command =~ s{^js-cpan\s+}{};
     return "JS->new->run(qw($command))";
 }
