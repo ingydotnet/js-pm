@@ -1,7 +1,11 @@
-use t::TestJS tests => 4;
+use File::Basename;
+use lib dirname(__FILE__);
+
+use TestJS tests => 4;
 
 filters {
     cli => [qw(run_js eval_all join)],
+    output => [qw(fix_t)],
 };
 
 run_is cli => 'output';

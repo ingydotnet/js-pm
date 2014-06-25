@@ -23,4 +23,12 @@ devel:
   irc: irc.freenode.net#ingy
   bug: https://github.com/ingydotnet/js-pm/issues/
 
-=travis: perl
+=cpan:
+  include_testbase: true
+
+=travis:
+  type: perl
+  testbase: true
+  test:
+    requires:
+      Spiffy: 0
