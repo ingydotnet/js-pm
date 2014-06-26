@@ -1,5 +1,5 @@
 use File::Basename;
-use lib dirname(__FILE__);
+use lib dirname(__FILE__), 'inc';
 
 use TestJS tests => 4;
 

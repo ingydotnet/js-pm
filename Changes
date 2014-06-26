@@ -1,4 +1,9 @@
 ---
+version: 0.20
+date:    Wed Jun 25 20:54:23 PDT 2014
+changes:
+- Fix tests to use 'inc'
+---
 version: 0.19
 date:    Wed Jun 25 08:51:42 PDT 2014
 changes:

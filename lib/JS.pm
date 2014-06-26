@@ -1,6 +1,6 @@
 use strict; use warnings;
 package JS;
-our $VERSION = '0.19';
+our $VERSION = '0.20';
 
 use File::Find;
 
