@@ -4,6 +4,7 @@ use JS;
 
 package TestJS::Filter;
 use Test::Base::Filter -Base;
+require Win32 if $^O eq 'MSWin32'; #for Cwd
 
 my $testdir = -d 'test' ? 'test' : 't';
 

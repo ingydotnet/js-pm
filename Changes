@@ -1,4 +1,9 @@
 ---
+version: 0.21
+date:    Sat Jun 28 11:30:10 PDT 2014
+changes:
+- Apply PR #2 by chorny++ (Fix for tests on win32)
+---
 version: 0.20
 date:    Wed Jun 25 20:54:23 PDT 2014
 changes:
