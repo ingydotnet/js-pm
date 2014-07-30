@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: JS
-version: 0.21
+version: 0.22
 abstract: JavaScript Modules on CPAN
 homepage: https://metacpan.org/release/JS
 
@@ -19,15 +19,16 @@ requires:
   perl: 5.8.1
 
 devel:
-  git: git@github.org/ingydotnet/js-pm
-  irc: irc.freenode.net#ingy
-  bug: https://github.com/ingydotnet/js-pm/issues/
+  git: https://github.com/ingydotnet/js-pm
+  bug: https://github.com/ingydotnet/js-pm/issues
+  irc: irc.freenode.net#pkg
 
 =cpan:
   include_testbase: true
 
 =travis:
   type: perl
+  irc: irc.freenode.net#pkg
   testbase: true
   test:
     requires:
