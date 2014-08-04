@@ -1,4 +1,9 @@
 ---
+version: 0.23
+date:    Sun Aug  3 23:04:02 PDT 2014
+changes:
+- Fix example Copyrights
+---
 version: 0.22
 date:    Wed Jul 30 15:46:27 PDT 2014
 changes:

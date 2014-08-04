@@ -16,6 +16,6 @@ Ingy döt Net <ingy@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2008. Ingy döt Net.
+Copyright 2008-2014. Ingy döt Net.
 
 =cut
