@@ -1,4 +1,9 @@
 ---
+version: 0.26
+date:    Sat Aug 16 02:13:40 PDT 2014
+changes:
+- Eliminate File::Basename from test/
+---
 version: 0.25
 date:    Fri Aug 15 15:57:36 PDT 2014
 changes:
