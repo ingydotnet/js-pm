@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: JS
-version: 0.27
+version: 0.28
 abstract: JavaScript Modules on CPAN
 homepage: https://metacpan.org/release/JS
 language: perl
@@ -26,9 +26,3 @@ requires:
 
 =zild:
   include_testbase: true
-
-=travis:
-  testbase: true
-  test:
-    requires:
-      Spiffy: 0
