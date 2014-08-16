@@ -6,17 +6,17 @@ package TestJS::Filter;
 use Test::Base::Filter -Base;
 require Win32 if $^O eq 'MSWin32'; #for Cwd
 
-my $testdir = -d 'test' ? 'test' : 't';
+my $t = -d 't' ? 't' : 'test';
 
 sub run_js {
     my $command = shift;
-    @INC = ("$testdir/testlib");
+    @INC = ("$t/testlib");
     $command =~ s{^js-cpan\s+}{};
     return "JS->new->run(qw($command))";
 }
 
 sub fix_t {
     my $path = shift;
-    $path =~ s/^t/$testdir/gm;
+    $path =~ s/^t/$t/gm;
     return $path;
 }
