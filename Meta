@@ -1,34 +1,33 @@
-=meta: 0.0.1
+=meta: 0.0.2
 
 name: JS
-version: 0.26
+version: 0.27
 abstract: JavaScript Modules on CPAN
 homepage: https://metacpan.org/release/JS
-
+language: perl
 license: perl
-copyright: 2008-2014. Ingy döt Net.
+copyright: 2008-2014
+
 author:
   name: Ingy döt Net
   email: ingy@cpan.org
+  homepage: http://ingy.net
   github: ingydotnet
   twitter: ingydotnet
   freenode: ingy
-  homepage: http://ingy.net
-
-requires:
-  perl: 5.8.1
 
 devel:
   git: https://github.com/ingydotnet/js-pm
   bug: https://github.com/ingydotnet/js-pm/issues
   irc: irc.freenode.net#pkg
 
-=cpan:
+requires:
+  perl: 5.8.1
+
+=zild:
   include_testbase: true
 
 =travis:
-  type: perl
-  irc: irc.freenode.net#pkg
   testbase: true
   test:
     requires:
